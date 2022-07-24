@@ -14,14 +14,14 @@ function showCurTemp(response) {
 
 function showCity(event) {
   event.preventDefault();
-  // let searchInput = document.querySelector("#city-name");
-  // let h1 = document.querySelector("h1");
-  // if (searchInput.value) {
-  //   h1.innerHTML = `${searchInput.value}`;
-  // } else {
-  //   h1.innerHTML = null;
-  //   alert(`Type a city`);
-  // }
+  let searchInput = document.querySelector("#city-name");
+  let h1 = document.querySelector("h1");
+  if (searchInput.value) {
+    h1.innerHTML = `${searchInput.value}`;
+  } else {
+    h1.innerHTML = null;
+    alert(`Type a city`);
+  }
   let city = document.querySelector("#city-name").value;
   let apiKey = "bc57b8de35a416749405960dbd82036f";
 
