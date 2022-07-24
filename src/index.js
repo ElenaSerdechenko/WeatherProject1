@@ -9,7 +9,8 @@ function showCurTemp(response) {
     response.data.wind.speed
   );
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
-  document.querySelector("#sky").innerHTML = response.data.weather.description;
+  document.querySelector("#sky").innerHTML =
+    response.data.weather[0].description;
 }
 
 function showCity(event) {
