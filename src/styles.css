@@ -1,0 +1,47 @@
+body {
+  background-image: url(images/blue-sky.jpg);
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+h1,
+h2 {
+  color: rgb(36, 41, 6);
+  font-size: 48px;
+  font-weight: bold;
+  padding: 0px 100px 0px 20px;
+  margin: 0 auto;
+}
+h3 {
+  color: rgb(160, 170, 18);
+  padding: 30px 20px 10px 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.head {
+  display: block;
+  position: relative;
+  left: 250px;
+}
+
+.weather {
+  color: rgb(90, 86, 86);
+  padding: 20px 20px;
+  margin: 0px auto;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.container {
+  display: inline-flexbox;
+}
+.allelement {
+  display: block;
+  margin: 10px 1000px 20px 10px;
+  border: 3px solid rgb(77, 100, 175);
+  border-radius: 20px;
+  opacity: 1;
+}
+.units {
+  font-size: 15px;
+}
